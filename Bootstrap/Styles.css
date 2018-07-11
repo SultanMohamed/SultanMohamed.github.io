@@ -1,0 +1,52 @@
+body {
+    background: url(Images/SubtleNet-White-Simple-Seamless-Patterns.jpg);
+}
+
+.jumbo {
+    background-color: beige
+}
+
+.highlight {
+    border: 1px solid black;
+}
+
+.bl {
+    border-left: none;
+}
+
+.lead2 {
+    font-size: 23px;
+}
+
+/* Changing boostrap default hover for table */
+table tr:nth-child(even):hover {
+    background-color: #efeded;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

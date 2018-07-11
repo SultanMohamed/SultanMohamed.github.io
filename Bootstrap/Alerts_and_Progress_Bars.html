@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+    
+    <!-- CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Raleway:400,400i,600,700,800" rel="stylesheet">
+
+  <title>Alerts &amp; Progress Bars</title>
+</head>
+
+<body>
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                    <!-- NAVBAR -->
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+    
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="Notes.html">Iftiin Notes</a>
+            
+            <!-- Toggler/ Collapsible Button -->
+            <!-- To create a collapsible navigation bar, use a button with class="navbar-toggler", data-toggle="collapse" and data-target="#thetarget".  -->
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#thetarget">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navbar Links -->
+            <!-- Then wrap the navbar content (links, etc) inside a div element with class="collapse navbar-collapse", followed by an id that matches the data-target of the button: "thetarget". -->
+            <div class="collapse navbar-collapse" id="thetarget">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Notes.html">Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    
+                    <!-- Bootstrap Notes -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Notes</a>
+                        
+                        <div class="dropdown-menu">
+                            <div class="dropdown-header">Bootstrap Notes</div>
+                            
+                            <a class="dropdown-item" href="Buttons.html"><i class="fa fa-tasks fa-lg mr-2"></i>Buttons</a>
+                            
+                            <a class="dropdown-item" href="Lists.html"><i class="fa fa-list fa-lg mr-2"></i>Lists</a>
+                            
+                            <a class="dropdown-item" href="Forms.html"><i class="fa fa-wpforms fa-lg mr-2"></i>Forms</a>
+                            
+                            <a class="dropdown-item" href="Alerts_and_Progress_Bars.html"><i class="fa fa-exclamation-triangle fa-lg mr-2"></i>Alerts &amp; PB</a>
+                            
+                            <a class="dropdown-item" href="Tables_and_Pagination.html"><i class="fa fa-table fa-lg mr-2"></i>Tables &amp; Pg</a>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    
+            <!-- Dropdown -->
+            <!-- The .dropdown class indicates a dropdown menu.
+
+To open the dropdown menu, use a button or a link with a class of .dropdown-toggle and the data-toggle="dropdown" attribute. -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">More</a>
+                        
+             <!-- Add the .dropdown-menu class to a <div> element to actually build the dropdown menu. 
+
+Then add the .dropdown-item class to each element (links or buttons) inside the dropdown menu. -->
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#"><i class="fa fa-shopping-cart fa-lg mr-2"></i>Shop</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-camera fa-lg mr-2"></i>Photography</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-paint-brush fa-lg mr-2"></i>Design</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-heartbeat fa-lg mr-2"></i>Health &amp; Fitness</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-music fa-lg mr-2"></i>Music</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-gamepad fa-lg mr-2"></i>Games</a>
+                            
+                             <a class="dropdown-item" href="#"><i class="fa fa-futbol-o fa-lg mr-2"></i>Sports</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-gift fa-lg mr-2"></i>Gift</a>
+                            
+            <!-- Dropdown Divider -->
+            <!-- The .dropdown-divider class is used to separate links inside the dropdown menu with a thin horizontal border: -->
+                            <div class="dropdown-divider"></div>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-bell fa-lg mr-2"></i>Notifications</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-sign-out fa-lg mr-2"></i>Log Out</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-user fa-lg mr-2"></i>My Account</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                    <!-- JUMBOTRON -->
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+    
+    <div class="jumbotron container-fluid mt-4">
+        <div class="container">
+            <h1 class="display-4">Alerts &amp; Progress Bars</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            
+            <div class="alert alert-success alert-dismissable">
+                <button class="close" data-dismiss="alert" type="button">
+                    <span><i class="fa fa-times"></i></span>
+                </button>
+                
+                <h4><i class="fa fa-thumbs-o-up fa-lg mr-2"></i>Congrats!</h4>
+                <p>Hey Mohamed, someone has actually sent you a message. You're successfully logged in.</p>
+                <hr>
+                <p class="mb-0">So many different alerts. These are some I can remember because they are simple and interesting. Add some that you think would make great alert messages as well. Doesn't matter if they're made up, If you think it would be great.</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container">
+        <h1 class="display-4">Alerts</h1>
+        
+    <!-- ALERTS -->
+        <div class="row">
+            <div class="col-md-7 highlight">
+                <div class="alert alert-danger alert-dismissable my-4">
+                    <button class="close" data-dismiss="alert" type="button">
+                        <span>&times;</span>
+                    </button>
+                    
+                    <strong><i class="fa fa-exclamation-triangle fa-lg mr-2"></i>Danger!</strong> Are you sure you want to delete your account? You can not recover this account. <br><br>
+                    
+                    <button class="btn btn-danger ml-4 mr-4" type="button">Delete</button>
+                    
+                    <button class="btn btn-success ml-5" type="button">Cancel</button>
+                    <hr>
+                    
+                    <p class="mb-0">To avoid deleting your account, click cancel or click on the x to the right of the alert to close the window.</p>
+                </div>
+                
+    <!-- Success Message -->
+                <br>
+                <br>
+                
+                <div class="alert alert-success alert-dismissable">
+                    <button class="close" data-dismiss="alert" type="button">
+                        <span>&times;</span>
+                    </button>
+                    
+                    <h4><i class="fa fa-thumbs-o-up fa-lg mr-2"></i>Congratulations!</h4>
+                    <p>There was never a doubt in our hearts that you were destined for success. Congratulations on your achievement!</p>
+                    <hr>
+                    
+                    <p class="mb-0">Your will to push and never give up has brought you this far, you deserve this and more. Again, congratulations for a marvelous achievement!</p>
+                </div>
+                
+                <br>
+                <br>
+                
+    <!-- Warning Message -->
+                <div class="alert alert-warning alert-dismissable">
+                    <button class="close" data-dismiss="alert" type="button">
+                        <span>&times;</span>
+                    </button>
+                    
+                    <h4><i class="fa fa-exclamation-triangle mr-2"></i>Your computer is low on memory</h4>
+                    <p>To restore enough memory for programs to work correctly, save your files and then close or restart all open programs. <a class="alert-link" href="#">More</a></p>
+                </div>
+            </div>
+            
+            <div class="col-md-5 highlight bl">
+                <p class="lead lead2">Alerts are created with the <span class="text-danger">.alert</span> class, followed by one of the four contextual classes <span class="text-danger">.alert-success</span>, <span class="text-danger">.alert-info</span>, <span class="text-danger">.alert-warning</span> or <span class="text-danger">.alert-danger</span>:
+                
+                <br><br>
+                    
+                Add the <span class="text-danger">.alert-link</span> class to any links inside the alert box to create "matching colored links": <br><br>
+                    
+                <strong>Closing Alerts</strong><br>
+                To close the alert message, add a <span class="text-danger">.alert-dismissible </span>class to the alert container. Then add <span class="text-danger">class="close" </span> and <span class="text-danger">data-dismiss="alert"</span> to a link or a button element (when you click on this the alert box will disappear).</p>
+            </div>
+        </div>
+        
+        <br>
+        <br>
+        
+    <!-- PROGRESS BAR -->
+        <h1 class="display-4">Progress Bar</h1>
+        <div class="row">
+            <div class="col-md-7 highlight">
+                <div class="progress my-4">
+                    <div class="progress-bar" style="width: 25%">25%</div>
+                </div>
+                
+                <div class="progress bg-secondary my-4">
+                    <div class="progress-bar bg-danger" style="width: 50%">50%</div>
+                </div>
+                
+                <div class="progress bg-dark my-4">
+                    <div class="progress-bar progress-bar-striped bg-info" style="width: 75%">75%</div>
+                </div>
+                
+                <div class="progress bg-secondary my-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 95%">95%</div>
+                </div>
+                
+                <div class="progress my-4" style="height: 25px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary lead lead2" style="width: 100%">100%</div>
+                </div>
+                
+    <!-- Progress Bar Stacked -->
+                <div class="progress" style="height: 35px;">
+                    <div class="progress-bar bg-danger lead lead2" style="width: 20%">Weak</div>
+                    
+                    <div class="progress-bar bg-warning lead lead2" style="width: 30%">Good</div>
+                    
+                    <div class="progress-bar bg-success lead lead2" style="width: 40%">Strong</div>
+                </div>
+                
+                <br>
+                <br>
+                
+                <p class="lead lead2">To create a default progress bar, add a <span class="text-danger">.progress</span> class to a container element and add the <span class="text-danger">.progress-bar</span> class to its child element. Use the CSS width property to set the <span class="text-danger">width</span> of the progress bar.<br><br>
+                    
+                Use the CSS <span class="text-danger">height</span> property to change the height of the progress. Note that you must set the same height for the progress container and the progress bar.</p>
+            </div>
+            
+            <div class="col-md-5 highlight bl">
+                
+                <p class="lead lead2">
+                <strong>Colored Progress Bars</strong><br>
+                The contextual classes can be used with progress bars color are not working, instead use <span class="text-danger">.bg-success | primary | danger | warning or info</span>: <br><br>
+                
+                <strong>Striped Progress Bars</strong><br>
+                Add class <span class="text-danger">.progress-bar-striped</span> to add stripes to the progress bars: (2<sup>nd</sup> div). <br><br>
+                
+                <strong>Animated Progress Bar</strong> <br>
+                Add class <span class="text-danger">.progress-bar-animated</span> to add animation to the progress bars: (2<sup>nd</sup> div). <br><br>
+                    
+                <strong>Stacked Progress Bars</strong><br>
+                Create a stacked progress bar by placing multiple bars into the same <span class="text-danger">&lt;div class="progress"></span></p>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                    <!-- END -->
+  <!-- ===== **** ===== **** ===== ===== **** ===== -->
+    
+  <div style="margin-top:500px;"></div>  
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+    
+    <!-- CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Raleway:400,400i,600,700,800" rel="stylesheet">
+
+  <title>Forms</title>
+</head>
+
+<body>
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                    <!-- NAVBAR -->
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+    
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="Notes.html">Iftiin Notes</a>
+            
+            <!-- Toggler/ Collapsible Button -->
+            <!-- To create a collapsible navigation bar, use a button with class="navbar-toggler", data-toggle="collapse" and data-target="#thetarget".  -->
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#thetarget">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navbar Links -->
+            <!-- Then wrap the navbar content (links, etc) inside a div element with class="collapse navbar-collapse", followed by an id that matches the data-target of the button: "thetarget". -->
+            <div class="collapse navbar-collapse" id="thetarget">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Notes.html">Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    
+                    <!-- Bootstrap Notes -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Notes</a>
+                        
+                        <div class="dropdown-menu">
+                            <div class="dropdown-header">Bootstrap Notes</div>
+                            
+                            <a class="dropdown-item" href="Buttons.html"><i class="fa fa-tasks fa-lg mr-2"></i>Buttons</a>
+                            
+                            <a class="dropdown-item" href="Lists.html"><i class="fa fa-list fa-lg mr-2"></i>Lists</a>
+                            
+                            <a class="dropdown-item" href="Forms.html"><i class="fa fa-wpforms fa-lg mr-2"></i>Forms</a>
+                            
+                            <a class="dropdown-item" href="Alerts_and_Progress_Bars.html"><i class="fa fa-exclamation-triangle fa-lg mr-2"></i>Alerts &amp; PB</a>
+                            
+                            <a class="dropdown-item" href="Tables_and_Pagination.html"><i class="fa fa-table fa-lg mr-2"></i>Tables &amp; Pg</a>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    
+            <!-- Dropdown -->
+            <!-- The .dropdown class indicates a dropdown menu.
+
+To open the dropdown menu, use a button or a link with a class of .dropdown-toggle and the data-toggle="dropdown" attribute. -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">More</a>
+                        
+             <!-- Add the .dropdown-menu class to a <div> element to actually build the dropdown menu. 
+
+Then add the .dropdown-item class to each element (links or buttons) inside the dropdown menu. -->
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#"><i class="fa fa-shopping-cart fa-lg mr-2"></i>Shop</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-camera fa-lg mr-2"></i>Photography</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-paint-brush fa-lg mr-2"></i>Design</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-heartbeat fa-lg mr-2"></i>Health &amp; Fitness</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-music fa-lg mr-2"></i>Music</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-gamepad fa-lg mr-2"></i>Games</a>
+                            
+                             <a class="dropdown-item" href="#"><i class="fa fa-futbol-o fa-lg mr-2"></i>Sports</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-gift fa-lg mr-2"></i>Gift</a>
+                            
+            <!-- Dropdown Divider -->
+            <!-- The .dropdown-divider class is used to separate links inside the dropdown menu with a thin horizontal border: -->
+                            <div class="dropdown-divider"></div>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-bell fa-lg mr-2"></i>Notifications</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-sign-out fa-lg mr-2"></i>Log Out</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-user fa-lg mr-2"></i>My Account</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                    <!-- JUMBOTRON -->
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+    
+    <div class="jumbotron container-fluid mt-4">
+        <div class="container">
+            <h1 class="display-4">FORMS</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            
+            <br>
+            
+            <form class="form-inline">
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+                    </div>
+                    
+                    <input class="form-control form-control-lg mr-3" type="text" placeholder="Username or Email">
+                </div>
+                
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fa fa-key"></i></span>
+                    </div>
+                    
+                    <input class="form-control form-control-lg mr-3" type="password" placeholder="Password">
+                </div>
+                
+                <button class="btn btn-outline-success btn-lg mb-2" type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    
+    
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                    <!-- FORMS -->
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+    
+    <div class="container">
+        <h1 class="display-4">Stacked Forms</h1>
+        <div class="row">
+            <div class="col-md-7 highlight">
+                <form class="mb-4" method="post">
+                    
+                    <!-- Group 1 -->
+                    <div class="form-group">
+                        <label class="lead lead2" for="name">Name</label>
+                        <input class="form-control form-control-lg mb-2" type="text" id="name" placeholder="First Name">
+                        
+                        <input class="form-control form-control-lg" type="text" id="name" placeholder="Last Name">
+                    </div>
+                    
+                    <!-- Group 2 -->
+                    <div class="form-group">
+                        <label class="lead lead2">Gender</label>
+                        <select class="form-control form-control-lg">
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </div>
+                    
+                    <!-- Group 3 -->
+                    <div class="form-group">
+                        <label class="lead lead2" for="email">Email Address</label>
+                        <input class="form-control form-control-lg" type="email" id="email" placeholder="someone@example.com">
+                        <small class="form-text text-muted">Your email will never be shared</small>
+                    </div>
+                    
+                    <!-- Group 4 -->
+                    <div class="form-group">
+                        <label class="lead lead2" for="tel">Phone</label>
+                        <input class="form-control form-control-lg" type="tel" id="tel" placeholder="(206) 856-5619">
+                        <small class="form-text text-muted">Your cell phone number will be used to contact you.</small>
+                    </div>
+                    
+                    <!-- Group 5 -->
+                    <div class="form-group">
+                        <label class="lead lead2" for="pw">Password</label>
+                        <input class="form-control form-control-lg" type="password" id="pw">
+                    </div>
+                    
+                    <!-- Group 6 -->
+                    <div class="form-group">
+                        <label class="lead lead2" for="msg">Message</label>
+                        <textarea class="form-control form-control-lg" id="msg" rows="4" placeholder="Your Message..."></textarea>
+                    </div>
+                    
+                    <!-- Group 7 Custom File -->
+                    <div class="custom-file mb-3">
+                        <label class="custom-file-label" for="file">Upload Resume</label>
+                        <input class="custom-file-input" type="file" id="file">
+                    </div>
+                    
+                    <button class="btn btn-outline-primary btn-lg btn-block" type="submit">Submit</button>
+                </form>
+            </div>
+            
+            <div class="col-md-5 highlight bl">
+                <p class="lead lead2">All textual &lt;input>, &lt;textarea>, and &lt;select> elements with class <span class="text-danger">.form-control</span> have a width of 100%. <br><br>
+                    
+                The following example creates a stacked form with input fields and a submit button.
+                    <br><br>
+                Add a wrapper element (&lt;div>) with <span class="text-danger">.form-group</span>, around each form control, to ensure proper margins: <br><br>
+                    
+                To add a caption for the email or password, use <span class="text-danger">&lt;small class="form-text text-muted">Your email will never be shared &lt;/small></span>
+                
+                    <br><br>
+                For the <span class="text-danger">input type"file"</span>, add a wrapper element (&lt;div>) with <span class="text-danger">.custom-file</span>. Then <span class="text-danger">.custom-file-label</span> and <span class="text-danger">.custom-file-input</span> to style a file field with full-width:</p>
+            </div>
+        </div>
+        
+        <br>
+        <br>
+        
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                    <!-- INLINE FORMS -->
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+        
+    <h1 class="display-4">Inline Forms</h1>
+        <div>
+            <form class="form-inline my-4">
+                <input class="form-control form-control-lg mb-2 mr-3" type="text" placeholder="First Name">
+
+                <input class="form-control form-control-lg mb-2 mr-3" type="text" placeholder="First Name">
+
+                <button class="btn btn-outline-success btn-lg mb-2" type="submit">Log In</button>
+            </form>
+
+            <p class="lead lead2">Add class <span class="text-danger">.form-inline</span> to the &lt;form> element. Then input fields with regular class of <span class="text-danger">.form-control</span>. Lastly a submit button for the log in.</p>
+        </div>
+        
+        <br>
+        <br>
+        
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                    <!-- FORM ROW -->
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+        
+    <h1 class="display-4">Form Row</h1>
+        <form>
+            <div class="form-row">
+                <div class="col">
+                    <input class="form-control form-control-lg" type="text" placeholder="First Name">
+                </div>
+                
+                <div class="col">
+                    <input class="form-control form-control-lg" type="text" placeholder="Last Name">
+                </div>
+            </div>
+            
+        <br>
+            <p class="lead lead2">Add a wrapper element inside the form with <span class="text-danger">.form-row</span>, followed by another div/s with <span class="text-danger">.col</span> and input fileds with <span class="text-danger">.form-control</span> inside each <span class="text-danger">.col</span>;</p>
+        </form>
+        
+        <br>
+        <br>
+        
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                <!-- FORM INPUTS / Addons -->
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+        
+        <h1 class="display-4">Input Groups / Addons</h1>
+        <div class="row">
+            <div class="col-md-7 highlight">
+                <form class="my-4">
+                    
+                    <!-- Prepend-->
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-envelope fa-lg"></i></span>
+                        </div>
+                        
+                        <input class="form-control form-control-lg" type="text" placeholder="Username">
+                    </div>
+                    
+                    <br>
+                    
+                    <!-- Append 
+                Input comes first-->
+                    <div class="input-group">
+                        <input class="form-control form-control-lg" type="text" placeholder="Username">
+                        
+                        <div class="input-group-append">
+                            <span class="input-group-text">@something.com</span>
+                        </div>
+                    </div>
+                    
+                    <br>
+                    
+                    <!-- Both Prepend and Append -->
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">$</span>
+                        </div>
+                        
+                        <input class="form-control form-control-lg" type="text" placeholder="Amount in dollars">
+                        
+                        <div class="input-group-append">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                    </div>
+                    
+                    <br>
+                    
+                    <!-- Button Addons -->
+                    <div class="input-group">
+                        <input class="form-control form-control-lg" type="text" placeholder="Search...">
+                        
+                        <div class="input-group-prepend">
+                            <button class="btn btn-primary btn-lg"><i class="fa fa-search fa-lg"></i></button>
+                        </div>
+                    </div>
+                </form>
+                
+                <!-- Summary -->
+                <p data-height="320" data-theme-id="0" data-slug-hash="jKgQxz" data-default-tab="html,result" data-user="SultanMohamed" data-embed-version="2" data-pen-title="jKgQxz" class="codepen">See the Pen <a href="https://codepen.io/SultanMohamed/pen/jKgQxz/">jKgQxz</a> by Mohamed (<a href="https://codepen.io/SultanMohamed">@SultanMohamed</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+            </div>
+            
+            <div class="col-md-5 highlight bl">
+                <p class="lead lead2">Use a wrapper element with class <span class="text-danger">.input-group</span> to enhance an input by adding an icon, text or a button in front or behind the input field as a "help text". <br><br>
+                
+                Use another wrapper element with class <span class="text-danger">.input-group-prepend</span> to add the help text/icon in front of the input, and <span class="text-danger">.input-group-append</span> to add it behind the input. <br><br>
+                    
+                At last, add the <span class="text-danger">.input-group-text</span> class (could be a span, button or any other html element) to style the specified help text.
+                <br><br>
+                
+                The <span class="text-danger">.input-group-text</span> should be inside the <span class="text-danger">.input-group-prepend| append</span>.
+                    <br><br>
+                    
+                <strong>Note:</strong> If appending, the input element should come before the <span class="text-danger">.input-group-append</span>.</p>
+            </div>
+        </div>
+        
+        <br>
+        <br>
+        
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                    <!-- FORM INPUTS -->
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+        
+        <h1 class="display-4">Form Inputs</h1>
+        <div class="row">
+            <div class="col-md-7 highlight">
+            </div>
+            
+            <div class="col-md-5 highlight bl">
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                    <!-- END -->
+  <!-- ===== **** ===== **** ===== ===== **** ===== -->
+    
+  <div style="margin-top:500px;"></div>  
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
